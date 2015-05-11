@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Week 2 Technical BLog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+</head>
+
+<body>
+
+  <div id="left">
+    <a href="/blog/index.html">
+      <img id="me" src="../me.png" alt="Me">
+    </a>
+  </div>
+
+  <div id="center">
+    <h1>Positioning Elements with CSS</h1>
+    <h4>5/10/2015</h4>
+
+      <section>
+        <p>
+          One important function of CSS is being able to place each HTML element exaclty where you want it to go. I sure wish I would have read more about CSS positioning before jumping into my stylesheet!  What's a stylesheet you ask? A stylesheet is what web developers use to add design features, formatting and strucure to the HTML elements that make up a web site.  The stylesheet is a blank slate with unlimited possibilities.  It can be as simlpe as making "Hello world" red. Or as complex as designing the biggest ecommerce sites today.
+        </p>
+        <p>
+          To position HTLM you have to know that natural flow of each document.  By default the elements will be displayed from top to bottom in a static order as they are typed.  If you have a block for your header, another for the body and a footer you will see them positioned vertically along the left of the screen with no overlap.  Even if the body is just one pixel it will still move the footer down to the bottom of the screen.  This is great for some sites, but others need to have more complex layouts. That is were positioning comes in handy.
+        </p>
+        <p>
+          Static is the default position of HTML. Each new elements will be places on the page as it relates to the element that preceeded it.
+        </p>
+        <p>
+          Fixed positioning is another option.  This fixes that element to the page and it doesn't move.  Not matter how much you scoll in any direction. These elements are locked where you placed them. This is helpful for navigaion or toolbars placed around the edge of a site.
+        </p>
+        <p>
+          Absolute positioning gets you the ability to attach an element to any specific point on the page. It ignores where sibling elemets are located. By using absolute positioning with no other details the element will end up in the top left corner of the container it is in.
+        </p>
+        <p>
+          Relative positioning is the last option.  This was the most difficult one for me to pick up.  This is moving an elements in relation to where it would have been if you didn't do anything.  However, it doesn't affect the location of any other elements on the page. That wasn't that difficult. The part I kept missing was that it is only relative to the closest elements above it that is not static.
+        </p>
+        <p>
+          I found the best way to really see what each style does it to experiment.  But start slow. Add one element to a page and give it each of the styles and see what happens. Then add a second element and do the samething. This way you can see the different results one at a time. With no other noise or clutter on the page. I hope this helps!
+        </p>
+      </section>
+  </div>
+  <div id="right"></div>
+
+</body>
+
+</html>
