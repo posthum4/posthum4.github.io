@@ -48,7 +48,7 @@ main {
 }
 
 .button-left {
-  background-color: #0077CC;
+  background-color: gray;
   height: 117px;
   width: 117px;
   border-radius: 50%;
@@ -62,7 +62,7 @@ main {
 
 .button-right {
   position: relative;
-  background-color: #0077CC;
+  background-color: gray;
   height: 117px;
   width: 117px;
   border-radius: 50%;

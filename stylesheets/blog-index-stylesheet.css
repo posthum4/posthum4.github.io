@@ -19,7 +19,7 @@ header{
 
 aside {
   position: absolute;
-  border-left: 2px solid blue;
+  border-left: 2px solid gray;
   height: 1000px;
   width: 30%;
   left: 70%;
@@ -27,7 +27,7 @@ aside {
 }
 
 article{
-  border: 1px solid black;
+  border: 1px solid gray;
   position: relative;
   top: 175px;
   width: 80%;
@@ -44,7 +44,7 @@ img {
 }
 
 header h1 {
-  text-shadow: -1px 2px 4px black;
+  /*text-shadow: -1px 2px 4px gray;*/
   position: absolute;
   dislay: inline-block;
   left: 150px;
@@ -70,7 +70,7 @@ aside h1{
 
 aside section {
   margin: 10%;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid gray;
 }
 
 
@@ -84,75 +84,3 @@ section p:nth-child(2){
   margin-left: 10%;
 }
 
-/*
-main{
-  display: inline-block
-}
-
-aside {
-  display: inline-block;
-  width: 260px;
-  top: 0px;
-  right: 0px;
-  border: 1px solid black;
-  position: relative;
-}
-
-header{
-  display: inline-block;
-  background-color: orange;
-  height: 150px;
-  width: 700px;
-  border: 1px solid black;
-}
-
-a {
-  background-color: red;
-  display: inline-block;
-  margin: 17px;
-  width: 117px;
-  height: 117px;
-  border-radius: 50%;
-
-}
-
-header h2 {
-  background-color: white;
-  display: inline-block;
-  font-size: 2em;
-  border: 1px solid black;
-  width: 500px;
-  padding: 8px;
-
-
-
-}
-
-article{
-  display: inline-block;
-  border: 1px solid black;
-  width: 650px;
-  margin: 25px;
-  height: 650px;
-}
-
-
-*/
-
-/*
-.home {
-  margin:22px;
-  display: inline-block;
-  width: 117px;
-  height: 117px;
-  border-radius: 50%;
-
-  background-color: gray;
-  text-align: center;
-}
-
-header h2 {
-  display: inline-block;
-
-
-}
