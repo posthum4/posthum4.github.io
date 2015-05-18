@@ -10,7 +10,7 @@
 <body>
 
   <div id="left">
-    <a href="#">
+    <a href="/blog/index.html">
       <img id="me" src="../me.png" alt="Me">
     </a>
   </div>
@@ -26,10 +26,54 @@
         </p>
 
         <p>
-          Why is it difficult to tell which option to use?  Becuase arrays and hashes are very similar.  Both are collections that can have  values added, removed, accessed, and manipulated. But there is one main difference.  That difference is how the location of each value in the collection is specified.
+          Why is it difficult to tell which option to use?  Becuase arrays and hashes are very similar.  Both are collections that can have  values added, removed, accessed, and manipulated. But there is one main difference.  That difference is how the location of each value in the collection is specified.  An array uses integers, starting at position 0, to assing a position to each value. Hashes use a key that can be assigned the user. This can can be any other object.
+
+
+            <table>
+             <th>Array</th>
+              <tr>
+                <td>Position</td>
+                <td>0</td>
+                <td>1</td>
+                <td>2</td>
+               <td>3</td>
+              </tr>
+              <tr>
+                <td>Value</td>
+                <td>10</td>
+                <td>20</td>
+                <td>30</td>
+                <td>40</td>
+              </tr>
+            </table>
+            </td>
+            </br>
+            </br>
+            <td>
+              <table>
+                <th>Hashes</th>
+                <tr>
+                  <td>Key</td>
+                  <td>"Name"</td>
+                  <td>"Grade"</td>
+                  <td>"School"</td>
+                  <td>"Year"</td>
+                </tr>
+                <tr>
+                  <td>Value</td>
+                  <td>Ryan</td>
+                  <td>12</td>
+                  <td>MSHS</td>
+                  <td>2002</td>
+                </tr>
+              </table>
+
         </p>
         <p>
-
+          Using these sample data sets you can start to see where hashes and arrays differ.  Arrays are good to use when you need an ordered colletion of values of undefined length, but whose position in the list is not important.  Hashes are better suited for recalling a specific piece of information for the list when you already now the key value.
+        </p>
+        <p>
+          Let's look at an example where you want to find out what grade a particular student is in.  If you were using arrays you would have to iterate over the entire list until you found that particular student's name.  With hashes you could easily pull that students information by calling: </br> </br> student_record["grade"] = 12
         </p>
       </section>
   </div>
