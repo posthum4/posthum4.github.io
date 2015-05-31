@@ -60,13 +60,23 @@
           @end = end
           @days_of_week = days_of_week
         end
-
       end
     </p>
+    <p>
+      With these few lines of code you can create all the Classes you want from this single class.  You don't have to create the list of variables for each one.  Just create an instance of the Class object.  Set the teacher, subject and room number to get a new course.  That is the initialize method.  Now you have an object that is an instance of the class Class.  This class has methods that will let you add students and set the schedule represented by the other def code blocks.  Eash instance of a Class will also be able to tell you what all the information is. The attr lines at the top give you the ability to read or write each variable in the instance of the class.
+    </p>
+    <p>
+      By simply calling a few lines of code you can create a new math class.
 
-      </section>
-  </div>
-  <div id="right"></div>
+      math_class = Class.new("math","Mrs. Trout", 205)
+      math_class.set_schedule("9:00 AM", "9:50 AM", ["M", "T", "W", "Th"])
+      math_class.add_students([Ryan, Ted, Sally, Jennifer, Bill])
+
+      I hope by now you can see how classes make it easier to create Classes.
+    </p>
+</section>
+</div>
+<div id="right"></div>
 
 </body>
 
