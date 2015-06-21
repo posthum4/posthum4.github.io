@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Week 8 Technical Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+</head>
+
+<body>
+
+  <div id="left">
+    <a href="index.html">
+      <img id="me" src="../me.png" alt="Me">
+    </a>
+  </div>
+
+  <div id="center">
+    <h1>Active Record and ORM</h1>
+    <h2></h2>
+    <h4>6/20/2015</h4>
+
+<section>
+  <p>
+    Active record was first coined in 2003 by Martin Fowler.  Since then it has become a very popular way for web applications to access records in a database.  Ruby on Rails even uses active record as the default model component of the model-view-controller (MVC) framework.  Active record combines the model, and its accompanying logic, with the data set into Classes and Objects which can be managed as a single entity. Each table in the database is associated to a class and reach record in the table is treated as an object. This architecture is known as Object Relational Mapping or ORM.
+  </p>
+
+  <p>
+    Before ORM there was a significant amount of configuration needed to connect the model to the data base. The various actions for create, read, update, and delete along with the data sets have to be created and defined correctly.  This is not the case with active record.  The idea is to solve with convention what historically was done with configuration.  If you have a class Page that inherits properties of the ActiveRecord class it will automatically create a table in the database called 'pages'.
+  </p>
+  <p>
+    The advantage of using active record is the speed that new applications can be created.  If you are trying to get a minimum viable product working you don't want to create a lot of well defined business logic. Chances are you don't know what the business logic is to begin with. For that reason active record is a suitable framework to sit between the application and the data layer.
+  </p>
+
+      </section>
+  </div>
+  <div id="right"></div>
+
+</body>
+
+</html>
