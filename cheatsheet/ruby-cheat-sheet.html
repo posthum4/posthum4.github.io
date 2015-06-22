@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ruby Cheat Sheet</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/cheat-sheet-stylesheet.css">
+  <meta charset="UTF-8">
+</head>
+<body>
+  <main>
+    <nav>
+      <table>
+        <tr>
+          <td>Other references:</td>
+          <td><a href="#">Cheat Sheet 1</a></td>
+           <td><a href="#">Cheat Sheet 2</a></td>
+        </tr>
+      </table>
+    </nav>
+
+    <header>
+      <h1>Cheat Sheet: <span id=ruby>Ruby</span> </h1>
+    </header>
+
+    <section class="ruby">
+      <table>
+        <th colspan=2 class="mh">Ruby Basics</th>
+        <tr>
+            <td class="sh"><h4>Class:</h4>
+              A class is a collection of properties and traits shared by a group of objects. All classes are also objects in Ruby.</td>
+            <td class="sh"><h4>Object:</h4>
+             Everything in Ruby is an Object.  Objects represent a single instance of something in Ruby. It can be an integer, string, array, or an entire class. </td>
+        </tr>
+        <tr>
+            <td class="left"><h4>String:</h4>Strings are text in Ruby. A string can be an empty string, represented by "", or a full page of text.</td>
+            <td class="right"><h4>Integer:</h4>Ingeters are whole numbers. They do not include values after a decimal place</td>
+        </tr>
+        <tr>
+            <td class="sh"><h4>Array:</h4>Arrays are an ordered collection of items. This items can anything including other object, arrays, strings, etc. The position is indexed starting at 0.  Zero is the first item in the array.</td>
+              <td class="sh"><h4>Hash:</h4>Hashes are very similar to arrays.  They contain a collection of items. Unlike arrays they are indexed by Keys. Keys are unique values in the hash.</td>
+        </tr>
+
+      </table>
+    </section>
+
+
+    <section class="ruby">
+      <table>
+        <th colspan=2 class="mh">Basic Ruby Method</th>
+        <tr>
+            <td class="sh"><h4>to_s, to_i</h4>123.to_s #=> "123"
+                <p>"123".to_i #=> 123</p>
+                <br>
+                <p>On the first line, 123 is converted into a string.</p>
+                <p>On the second line, "123" is coverted into an integer.</p></td>
+                <td class="sh"><h4>nil?</h4>nil.nil? #=> true
+                    <p>"nil".nil? #=> false</p>
+                    <br>
+                    <p>First line, nil? is to check if nil is nil.</p>
+                        <p>Second line, "nil" is a string with actual value, .nil? return false.</p></td>
+        </tr>
+        <tr >
+            <td class="sh"><h4>gets.chomp and gets</h4>
+                puts "Input a string"
+                <p>input = gets.chomp #=> "string"</p>
+                <p>"Input a string"</p>
+                <p>input = gets #=> "string\n" </p>
+                <br>
+                <p>First line, chomp will make Ruby to ignore the last character input, which is the return key</p>
+                    <p>Without the chomp method, the return key is captured as \n</p>
+            </td>
+            <td class="sh"><h4>include?</h4>a = [ "a", "b", "c" ]
+                <p>a.include?("b") #=> true</p>
+                <p>a.include?("z") #=> false</p>
+                <br>
+                    <p>include? can detect if a particular value is included in an array.</p></td>
+        </tr>
+        <tr>
+            <td class="sh"><h4>split</h4>"1234".split("") #=>[1, 2, 3, 4]
+                <p>"1, 2, 3, 4".split(",") #=>[1, 2, 3, 4]</p>
+            <br>
+                <p>split method took an argument, can split a string by the argument and turns it into an array</p></td>
+                <td class="sh"><h4>length</h4>
+                    a = [1, 2, 3, 4]
+                    <p>a.length #=>4</p>
+                    <br>
+                    <p>length method can return the number of element in an array</p></td>
+        </tr>
+
+      </table>
+
+ <table>
+        <th colspan=2 class="mh">Looping in Ruby</th>
+        <tr>
+            <td class="sh"><h4>While Loop:</h4>
+            <p>While loops are used when you do not know how many times you will need to repeat a specific block of code. As long as the conditon holds it will continue to run what is in the code block </br>
+              while condition do</br>&nbsp;&nbsp;puts ("Keep printing this while true") </br>end</br>
+              Variations include: Until, or Begin end while.
+            </p>
+            </td>
+            <td class="sh"><h4>For Loops:</h4>
+             <p>For loops are used when you know how many times you need to perform a specific action.</br>
+              for i in 0..5</br>&nbsp;&nbsp;puts ("Print this for the #{i}") </br>end</br></td>
+        </tr>
+
+      </table>
+
+    </section>
+
+  </main>
+
+
+</body>
+
+
+</html>
